@@ -11,7 +11,7 @@ The File System class is a Singleton and can be instantiated with,
 
 note also to use this class in your code, you will need to have a `use` statement.
 
-    use Zencar\\FileSytem\\FileSytem;
+    use Zencart\\FileSytem\\FileSytem;
 
 
 methods currently provided are :-

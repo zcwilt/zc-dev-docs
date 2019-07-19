@@ -12,6 +12,7 @@ Plugin System
     installerclasses
     sqlinstallation
     writingplugins
+    pluginmanagerclass
 
 
 While we had started a plugin architecture for the V2 Develop branch, there was naturally a lot of concern over the fact that current plugins would no longer work and would need extensive rewriting.

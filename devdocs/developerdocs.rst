@@ -9,6 +9,9 @@ Developer Documentation
     :hidden:
 
     adminclasses
+    filesystemclass
+    languageloaderclass
     tableviewcontrollers/tableviewcontrollers
     plugins/pluginsystem
+    filesystemclass
 

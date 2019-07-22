@@ -46,6 +46,22 @@ You can then register the namespce using :-
 again `$psr4Autoload` is a global variable availaboe throughout the `initSystem`
 
 
+Admin Controllers
+=================
+
+To allow for the loading of pages/views in admin, we can't use the old URI structure of
+
+`https://mydomain.com/admindir/somepage.php` as there is then no way to tell if the page is a core page or a plugin
+page.
+
+To allow plugin pages to be auto-detected and loaded the URI structure for admin has been changed to a
+similar structure as catalog pages.
+
+e.g.
+
+`https://mydomain.com/admindir?cmd=somepage`
+
+The zen_href_link function in admin has been updated to reflect this.
 
 
 InitSystem
@@ -63,7 +79,7 @@ by the plugin infrastructure, inluding ignoring loading if the plugin is not ins
 Support Files
 =============
 
-Supoort files include files that existy within the `includes\extra_definitions`
+Support files include files that existy within the `includes\extra_definitions`
 and `includes/functions/extra_functions` directories.
 Again all of these files will be automatically included from the releavant plugin directories.
 
@@ -71,14 +87,18 @@ Again all of these files will be automatically included from the releavant plugi
 Page Files
 ==========
 
+Standard page files in either the plugin admin or catalog directory will load automatically as well as
+pulling in language files related to thet page/view.
 
 Language Files
 ==============
+
+@todo
 
 
 Template Files
 ==============
 
-
+@todo
 
 

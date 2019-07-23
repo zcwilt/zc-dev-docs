@@ -12,6 +12,7 @@ Plugin System
     installerclasses
     sqlinstallation
     writingplugins
+    debugingplugins
     pluginmanagerclass
 
 

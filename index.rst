@@ -18,8 +18,6 @@ The currently available Manuals are:
 
  - :doc:`../dockerdev/dockerdev`
 
- - :doc:`../releaselist`
-
 You may contribute to this documentation via our `Github <https://github.com/zcwilt/zc-dev-docs>`_ Repository.
 
 
@@ -31,6 +29,5 @@ You may contribute to this documentation via our `Github <https://github.com/zcw
     devdocs/developerdocs
     habitatdev/introduction
     dockerdev/dockerdev
-    releaselist
 
 

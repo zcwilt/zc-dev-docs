@@ -110,9 +110,10 @@ Separating content, markup and logic
 ********************************************************************
 
 Where possible, try to keep these things separate:
-- Files in `includes/languages` should contain strings (not HTML/CSS markup);
-- Files in `includes/modules` and `includes/functions` should be where logic resides (not markup);
-- Files in `includes/templates` should be where display markup resides (not extensive logic).
+
+ - Files in `includes/languages` should contain strings (not HTML/CSS markup);
+ - Files in `includes/modules` and `includes/functions` should be where logic resides (not markup);
+ - Files in `includes/templates` should be where display markup resides (not extensive logic).
 
 **********************************
 Namespaced Autoloading

@@ -75,13 +75,17 @@ function exactly as they do in a normal Zen Cart install.
 No adjustment needs to be made to file paths used in the `initSytem` auto_loader, as this will be handled
 by the plugin infrastructure, inluding ignoring loading if the plugin is not installed.
 
+.. note:: Please see the :doc:`../initsystem` for more information on how the `initSystem` works.
+
 
 Support Files
 =============
 
-Support files include files that existy within the `includes\extra_definitions`
-and `includes/functions/extra_functions` directories.
+Support files include files that exist within the `includes\extra_datafiles`
+and `includes/functions/extra_datafiles` directories.
 Again all of these files will be automatically included from the releavant plugin directories.
+
+.. warning:: files within `includes/extra_configures` are not part of the plugin structure.
 
 
 Page Files

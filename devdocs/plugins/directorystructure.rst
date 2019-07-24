@@ -27,6 +27,8 @@ e.g.
           - classes
           - languages
 
+      - catalog
+
         - includes
 
           - functions
@@ -48,6 +50,8 @@ e.g.
           - extra_datafiles
           - classes
           - languages
+
+      - catalog
 
         - includes
 
